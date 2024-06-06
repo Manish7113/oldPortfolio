@@ -1,0 +1,193 @@
+#parent_contact {
+    padding: 5vw;
+    padding-top: 10vh;
+    box-sizing: border-box;
+    width: 100vw;
+    height: max-content;
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+#head {
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    color: #7277cc;
+    text-transform: uppercase;
+    margin: 20px;
+    margin-bottom: 30px;
+}
+
+#values {
+    width: 40vw;
+   
+}
+.haeding{
+    font-size: 20px;
+    font-weight: 600;
+    color: #7277cc;
+    text-transform: uppercase;
+}
+.answer{
+    font-size: 20px;
+}
+.answer a{
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    transition: .5s;
+    
+}
+.answer a:hover{
+    font-size: 20px;
+    color:#1e418a;
+    text-decoration: none;
+    
+}
+
+
+.inputfeild{
+    width: 40%;
+    height:5vh;
+    padding-left: 10px;
+    margin-right: 10px;
+    border: 1px solid gray;
+
+
+}
+#work{
+    margin-top: 20px;
+    padding: 10px;
+    width: 80%;
+    height: 20vh;
+}
+#done_button{
+    width: 100px;
+    height: 5vh;
+    color: white;
+    background-color: #7277cc;
+    font-size: large;
+    /* font-weight: 600; */
+    border-radius: 5px;
+    border: none;
+    
+}
+#divv{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#thankyou{
+    text-align: center;
+    font-size: 40px;
+    text-transform: capitalize;
+    color: 	#1e418a;
+    background-color: 	#eeeeee;
+    padding: 20px;
+    border-radius: 3px;
+    width: 100%;
+}
+#ok{
+    min-width: 100px;
+    width: max-content;
+    padding: 5px;
+    font-size: 20px;
+    margin-top: 25px;
+    border-radius: 10px;
+    background-color: #7277cc;
+    color: white;
+    border: none;
+
+   
+}
+
+@media only screen and (max-width:1082px){
+    #parent_contact {
+        padding: 5vw;
+        padding-top: 10vh;
+        box-sizing: border-box;
+        width: 100vw;
+        height: max-content;
+        display: flex;
+        flex-direction:column ;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+    #values {
+        width: 30vw;
+        margin: 0px;
+
+       
+    }
+}
+
+@media only screen and (max-width:820px){
+    #parent_contact {
+        padding: 5vw;
+        padding-left: 20px;
+        padding-top: 10vh;
+        box-sizing: border-box;
+        width: 100vw;
+        height: 120vh;
+        min-height: max-content;
+    }
+    #head {
+        text-align: center;
+        font-size: 30px;
+        font-weight: 600;
+        color: #7277cc;
+        text-transform: uppercase;
+        margin: 20px;
+        margin-bottom: 30px;
+        display: block;
+    }
+    #values {
+        width: 90vw;
+        padding-left: 25px;
+        box-sizing: border-box;
+     
+    }
+    #message {
+        padding-left: 25px;
+        box-sizing: border-box;
+        width: 90vw;
+        display: block;
+      
+    }
+    .inputfeild{
+        width: 80%;
+        height:5vh;
+        padding-left: 10px;
+        margin-top: 10px;
+        border-radius: 5px;
+        border: 1px solid gray;
+        margin-right: 10px;
+    
+    }
+    #work{
+        margin-top: 20px;
+        padding: 10px;
+        width: 60%;
+        height: 20vh;
+    }
+    #done_button{
+        width: 150px;
+        height: 5vh;
+        color: white;
+        background-color: #7277cc;
+        font-size: large;
+        /* font-weight: 600; */
+        border-radius: 5px;
+        border: none;
+        margin-top: 10px;
+        
+    }
+    
+
+}

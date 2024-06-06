@@ -1,0 +1,77 @@
+#parent_footer {
+    width: 100%;
+    height: max-content;
+    box-sizing: border-box;
+    padding: 10vh;
+    background-color: #2a4858;
+    color: white;
+    
+    background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20201022/pngtree-technical-abstract-technology-background-with-geometric-shape-image_430549.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.name {
+
+    width: 300px;
+   
+    text-align: center;
+}
+
+.head {
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.desc a {
+    color: white;
+    display: block;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+.desc a img {
+    width: 20px;
+    display: inline;
+    color: white;
+}
+@media only screen and (max-width:1126px){
+    .name {
+
+        width: 200px;
+        
+        text-align: center;
+    }
+    
+}
+
+@media only screen and (max-width:825px){
+    .name {
+
+        width: 150px;
+        
+        text-align: center;
+    }
+    
+}
+@media only screen and (max-width:675px){
+    #parent_footer {
+        background-image:url("https://cdn.pixabay.com/photo/2016/11/14/04/36/boy-1822614_1280.jpg");
+    }
+    
+    .name {
+
+        width: 80%;
+       
+      
+        margin-bottom: 50px;
+        text-align: center;
+    }
+    
+}

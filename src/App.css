@@ -1,0 +1,39 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  scroll-behavior: smooth;
+ 
+}
+.content{
+  height: 200vh;
+  display: grid;
+  place-items: center;
+
+}
+/* 
+.App {
+  text-align: center;
+  height: 100vh;
+  perspective: 2px;
+
+}
+.no_parallax{
+  background-color: #111111;
+  z-index: 1;
+  color: #f9f9f9;
+}
+.parallax{
+  height: 50vh;
+}
+.parallax::after{
+  content: ;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  right: 0;
+  transform: translate(-1px) scale(1.5);
+  background-size: 100%;
+}
+.bg::after{
+  background-image: url("https://media.istockphoto.com/id/1165916723/photo/the-setup-for-success.webp?b=1&s=170667a&w=0&k=20&c=x9X_GVCwtG5-RVAkBmzq4hklFf_6iEPrMALfnHMXb_0=");
+} */

@@ -1,0 +1,73 @@
+.back {
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-image: url("https://img.freepik.com/premium-photo/cropped-shot-comfortable-workspace-with-blank-screen-laptop-computer-office-supplies-camera_67155-4464.jpg?w=1060");
+    background-size: cover;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#mobile{
+    display: none;
+}
+
+#intro {
+    background-color: black;
+    opacity: 0.7;
+    width: 60%;
+    border-radius: 5px;
+}
+
+#value {
+    text-align: center;
+    font-style: Raleway;
+    color: white;
+    font-size: 50px;
+    margin: 10px;
+    font-weight: 600;
+}
+
+#animatedtext {
+    color: white;
+}
+@media only screen and (max-width: 1150px) {
+
+
+}
+@media only screen and (max-width: 820px) {
+    .back {
+        
+        width: 100vw;
+        height: 60vh;
+        background-repeat: no-repeat;
+        background-image: url("https://cdn.pixabay.com/photo/2022/07/20/18/44/reading-7334749_1280.png");
+        /* background-size: 100%; */
+        background-size: cover;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #mobile{
+        width:300px;
+        display: block;
+        color: white;
+        text-transform: capitalize;
+        font-size: 35px;
+        text-align: center;
+        font-family: American Typewriter, serif;
+       
+    }
+    #intro {
+        background-color: #073763;
+        opacity: 0.9;
+        width: 80%;
+        border-radius: 5px;
+    }
+    #value {
+        display: none;
+    }
+   
+}

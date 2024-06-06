@@ -1,0 +1,157 @@
+#parent_service {
+    margin: 0%;
+    padding: 0%;
+    color: white;
+    background-color: 	#eeeeee;
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+  
+
+}
+
+#heading0 {
+ text-align: center;
+ align-self: center;
+ width: 100%;
+ position: sticky;
+ z-index:1;
+}
+
+#heading {
+    color: 	#073763;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    
+}
+
+
+.container {
+    box-sizing: border-box;
+    padding: 10px;
+    width: 300px;
+    
+    margin: 30px;
+    /* background-color: #232b2b; */
+    background-color:white;
+    
+    height: max-content;
+    min-height: 228px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #7277cc;
+    border-bottom:1px solid #073763 ;
+    transition: all .5s;
+  
+}
+.container:hover{
+    background-color: #aaaaaa;
+    
+    
+}
+
+.container img {
+  
+    mix-blend-mode: multiply;
+    width: 50px;
+}
+
+.contain_head {
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    text-decoration: underline;
+    color: #7277cc;
+
+}
+.contain_expand{
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 10px;  
+    color: black;
+    cursor: pointer; 
+}
+#desc {
+    color: #7277cc;
+    font-size: 20px;
+    text-align: center;
+}
+#linkk{
+    font-size: 20px;
+}
+#linkk h2{
+    color: #073763;
+    font-weight: 300;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#linkk p{
+    color: black;
+}
+#linkk button{
+    width: 90px;
+    height: 30px;
+    font-size: 20px;
+    margin-top: 100px;
+    background-color: #7277cc;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+@media only screen and (max-width:720px) {
+    #parent_service {
+        height: max-content;
+        padding-top:40px ;
+        padding-bottom: 100px;
+        
+    }
+    .container {
+        border-bottom:1px solid #073763 ;
+        transition: all .5s;
+    }
+    .container:hover{
+        background-color: white;
+        min-height: 210px;
+        
+    }
+   
+}
+
+/* 
+@media only screen and (max-width:720px) {
+    #parent_service {
+        margin: 0%;
+        padding: 0%;
+        color: white;
+        background-color: gray;
+        width: 100vw;
+        height: 200vh;
+        box-sizing: border-box;
+        display: grid;
+        place-items: center;
+
+
+    }
+
+    #heading0 {
+        left: 15vw;
+    }
+
+    .container {
+        top: 0;
+        bottom: 0;
+        width: 60%;
+        height: 80%;
+        padding: 20px;
+        background-color: #232b2b;
+
+    }
+} */
